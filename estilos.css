@@ -1,0 +1,34 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+p{
+    padding:0px;
+    margin:0px;
+}
+
+header{
+    background-color: black;
+    padding: 10px; /*Isso aumenta a espessura do painel de navegação */
+}
+
+ol{
+    display: flex; /* Isso faz com que a lista do menu fique na mesma linha */
+    list-style-type: none; /* Isso retira os números de ordem da lista */
+}
+
+li{
+    margin-right: 50px; /* Isso afasta as palavras do menu em 50px  */
+    color: aliceblue; /* Essa é a cor da fonte do menu */ 
+    font-size: 30px; 
+}
+
+a{
+    text-decoration: none;
+    text-decoration-color: none;
+}
+
+a:visited{
+    color:inherit;
+}
