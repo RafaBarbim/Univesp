@@ -5,7 +5,22 @@ body{
 
 p{
     padding:0px;
-    margin:0px;
+    margin:10px;
+    margin-left: 50px;
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+}
+
+h1{
+    background: rgb(114, 114, 107);
+    border-style: solid;
+    border-color: white;
+    border-radius: 20px;
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Satisfy', cursive;
 }
 
 header{
@@ -21,7 +36,8 @@ ol{
 li{
     margin-right: 50px; /* Isso afasta as palavras do menu em 50px  */
     color: aliceblue; /* Essa é a cor da fonte do menu */ 
-    font-size: 30px; 
+    font-size: 20px; 
+    font-family: 'Satisfy', cursive;
 }
 
 a{
@@ -31,4 +47,44 @@ a{
 
 a:visited{
     color:inherit;
+}
+
+.serv{
+    display: flex;
+    background: black;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.descrição{
+    color:aliceblue;
+    width: 330px;
+    margin-right: 35px;
+    margin-left:35px
+}
+
+.imagem{
+    
+    border-radius: 15px;
+    margin-right: 35px;
+    margin-left:35px;
+    border-color: white;
+    border-style: solid;
+}
+
+.voltar{
+    border-radius: 15px;
+    border-style: solid;
+    border-color: red;
+    background: yellow;
+    padding:10px;
+    text-align: center;
+    font-size: 30px; 
+    font-family: 'Satisfy', cursive;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
 }
