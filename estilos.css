@@ -43,6 +43,7 @@ li{
 a{
     text-decoration: none;
     text-decoration-color: none;
+
 }
 
 a:visited{
@@ -76,15 +77,15 @@ a:visited{
 .voltar{
     border-radius: 15px;
     border-style: solid;
-    border-color: red;
-    background: yellow;
-    padding:10px;
-    text-align: center;
+    border-color: rgb(22, 21, 21);
+    background: rgb(214, 214, 201);
     font-size: 30px; 
     font-family: 'Satisfy', cursive;
+    height: 15px;
+    width: 70px;
+    margin-left:90% ;
+    padding: 2px; 
+   
 }
 
-#map {
-    height: 400px;
-    width: 100%;
-}
+
